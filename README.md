@@ -12,12 +12,12 @@ When you install this, you get the following sensors for Sense:
  - **notifications**
 
 It's a small, battery-powered device, so don't expect frequent updates. It seems to measure every hour, but the app also said it only uploads every 24h. The sensors I implemented only give the latest measurement returned from the server.
- 
+
 When you install this, you get the following sensors for each Sense Guard (subject to change, still haven't figured out what makes sense really):
  - **1_day** Liters of water withdrawn today (resets to 0 at midnight)
  - **7_day** Liters of water withdrawn during the last 144 hours.
  - **flowrate**
- - **pressure** 
+ - **pressure**
  - **temperature_guard**
  - **notifications**
 
@@ -42,7 +42,7 @@ Graphing water consumption is also nice. Note that the data returned by Grohe's 
 
 #### Option 1: Via HACS
 - Make sure you have HACS installed. If you don't, run `curl -sfSL https://hacs.xyz/install | bash -` in Home Assistant.
-- Choose Integrations under HACS. Click the '+' button on the bottom of the page, search for 
+- Choose Integrations under HACS. Click the '+' button on the bottom of the page, search for
   "Grohe Sense", choose it, and click install in HACS.
 
 #### Option 2: Manual
